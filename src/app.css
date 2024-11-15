@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* transition: all linear 400ms; */
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+@media (max-width : 640px){
+    .med-q{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+}
+
+a{
+    transition: all linear 100ms;
+}
+
+
+/* #anim{
+    animation: anim 0.5s ease-out  ;
+}
+@keyframes anim {
+    from {
+        translate: 0px -60px;
+    }
+    to{
+        translate: 0px 0px;
+    }
+}
+.icon{
+    transition: 0.07s all linear;
+    border-radius: 50%;
+    
+}
+.icon:hover{
+    border : 3px solid white;
+}
+
+
+.play-panel:hover{
+    width: fit-content;
+    color: black;
+} */
