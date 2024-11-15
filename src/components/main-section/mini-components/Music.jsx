@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { FaPlay } from "react-icons/fa";
 import { FaPause } from "react-icons/fa";
-import musicFile from "../../../assets/weather/music.mp3";
+import musicFile from "/weather/music.mp3";
 
 
 function Music() {

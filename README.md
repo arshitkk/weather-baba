@@ -15,15 +15,19 @@
 
 ## 📸 Screenshots
 
-### Desktop View
-
-_(Add screenshot here)_
-
-### Mobile View
-
-_(Add screenshot here)_
-
----
+<div align="center">
+  <!-- Desktop Screenshots -->
+  <img src="./screenshots/desktop/Screenshot 2024-11-16 022835.png" width="300" alt="desktop screenshot 1" style="margin: 10px; border-radius: 8px;" />
+  <img src="./screenshots/desktop/Screenshot 2024-11-16 022847.png" width="300" alt="desktop screenshot 2" style="margin: 10px; border-radius: 8px;" />
+  <img src="./screenshots/desktop/Screenshot 2024-11-16 022858.png" width="300" alt="desktop screenshot 3" style="margin: 10px; border-radius: 8px;" />
+  <img src="./screenshots/desktop/Screenshot 2024-11-16 022921.png" width="300" alt="desktop screenshot 4" style="margin: 10px; border-radius: 8px;" />
+  
+  <!-- Mobile Screenshots with adjusted width for uniformity -->
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    <img src="./screenshots/mobile/Screenshot_20241116-024301_Chrome.png" width="250" alt="mobile screenshot 1" style="border-radius: 8px;" />
+    <img src="./screenshots/mobile/Screenshot_20241116-024304_Chrome.png" width="250" alt="mobile screenshot 2" style="border-radius: 8px;" />
+  </div>
+</div>
 
 ## 🛠️ Features
 
