@@ -19,13 +19,13 @@ function WeatherInfo({ report }) {
         <div>
           <p className=" mx-auto bg-white/30 backdrop-blur-sm w-fit shadow-lg rounded-lg translate-y-[-0.01rem] p-2 pt-1 font-bold text-xl rounded-bl-none rounded-br-none  ">
             <img
-              className="h-7"
+              className="h-4"
               src={report?.country || "default_flag_url.png"}
               alt="Country Flag"
             />
           </p>
           <div className=" mx-auto bg-white/30 backdrop-blur-sm shadow-lg rounded-2xl  z-10 shadow-slate-700 h-fit w-fit p-2 ">
-            <div className="p-4 flex flex-col items-center sm:item-start w-72 ">
+            <div className="p-4 flex flex-col items-center sm:item-start w-72 w-fit ">
               <div className="flex flex-col items-center">
                 <h1 className="text-4xl font-bold mb-2">
                   {report.temp || "N/A"}
@@ -44,8 +44,8 @@ function WeatherInfo({ report }) {
                   />
                 )}
               </div>
-              <div className="mt-4 gap-6 border p-1 rounded-lg bg-white/40 shadow-lg overflow-hidden w-fit sm:w-full ">
-                <div className="sm:flex justify-between">
+              <div className="mt-4 gap-6 border p-1 rounded-lg bg-white/40 shadow-lg  w-fit sm:w-full ">
+                <div className="sm:flex justify-between ">
                   <span className=" flex gap-2 items-center">
                     <LuSunrise />
                     <p className="text-sm text-gray-600">

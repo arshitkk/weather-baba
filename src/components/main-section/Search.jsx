@@ -45,6 +45,7 @@ function Search() {
         const sunsetTime = weatherData.sys?.sunset
           ? new Date(weatherData.sys.sunset * 1000).toLocaleTimeString()
           : "N/A";
+          setLoaded(true);
         setReport({
           name: weatherData?.name,
           country: `https://flagcdn.com/144x108/${weatherData?.sys?.country.toLowerCase()}.png`,
@@ -59,8 +60,8 @@ function Search() {
           pressure: `${weatherData?.main?.pressure} hPa`,
         });
       } else {
-        alert("Couldnt find the Location, Please try again");
         setLoaded(false);
+        alert("Couldnt find the Location, Please try again");
       }
       if (report.temp ) {
         setLoaded(true);
@@ -73,7 +74,7 @@ function Search() {
     <div className="">
       <form
         onSubmit={fetchInfo}
-        className="flex justify-center items-center scale-90 my-5 "
+        className="flex justify-center items-center scale-90 my-2 "
       >
         <div className=" med-q flex item-center justify-center w-screen gap-6  ">
           <input
