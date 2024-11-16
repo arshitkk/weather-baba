@@ -1,10 +1,10 @@
 export const rainy = [
-  "/weather/Rain.mp4",
-  "/weather/Rain2.mp4",
-  "/weather/Rain3.mp4",
+  "/weather/rain.mp4",
+  "/weather/rain2.mp4",
+  "/weather/rain3.mp4",
 ];
-export const cloudy = ["/weather/Clouds.mp4", "/weather/Clouds2.mp4"];
-export const sunny = ["/weather/Sunny.mp4", "/weather/Sunny2.mp4"];
+export const cloudy = ["/weather/clouds.mp4", "/weather/clouds2.mp4"];
+export const sunny = ["/weather/sunny.mp4", "/weather/sunny2.mp4"];
 export const clear = ["/weather/clear.mp4"];
-export const drizzle = ["/weather/Drizzle.mp4"];
-export const thunderstorm = ["/weather/Thunder Storm.mp4"];
+export const drizzle = ["/weather/drizzle.mp4"];
+export const thunderstorm = ["/weather/thunder_storm.mp4"];
