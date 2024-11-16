@@ -20,11 +20,11 @@ function Container({ children }) {
   useEffect(() => {
     // Set current description based on the current page
     if (currentPage === "/") {
-      setCurrentDesc(myWeatherDesc ? myWeatherDesc : "clear");
+      setCurrentDesc(myWeatherDesc ? myWeatherDesc : "sunny");
     } else if (currentPage === "/search-weather") {
-      setCurrentDesc(searchWeatherDesc ? searchWeatherDesc : "clear");
+      setCurrentDesc(searchWeatherDesc ? searchWeatherDesc : "sunny");
     } else if (currentPage === "/about-website") {
-      setCurrentDesc("clear");
+      setCurrentDesc("sunny");
     }
   }, [myWeatherDesc, searchWeatherDesc, currentPage]);
   useEffect(() => {
