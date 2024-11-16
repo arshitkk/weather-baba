@@ -9,7 +9,7 @@
 
 ## 🚀 Live Demo
 
-[Check out Weather BABA on Vercel!](#) _(coming soon)_
+[weather-baba.vercel.app](https://weather-baba.vercel.app/)
 
 ---
 
