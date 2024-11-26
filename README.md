@@ -84,6 +84,6 @@ Created by **Arshit Kumar**
 
 - [LinkedIn](https://www.linkedin.com/in/arshitkk/#)
 - [GitHub](https://www.github.com/arshitkk/#)
-- [Twitter / X](https://www.x.com/arshitkk/#)
+- [Twitter / X](https://X.com/arshitKK)
 - [Instagram](https://www.instagram.com/arshitkk/#)
 - [Email](mailto:arshitkumar222@gmail.com)
